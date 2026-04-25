@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#f7f4ee"/>
+  <!-- Denim pattern inside lens -->
+  <clipPath id="lens-clip-512">
+    <circle cx="218" cy="218" r="140"/>
+  </clipPath>
+  <!-- Denim base -->
+  <circle cx="218" cy="218" r="140" fill="#4a6fa5"/>
+  <!-- Denim diagonal lines (warp) -->
+  <g clip-path="url(#lens-clip-512)" stroke="#5a82bc" stroke-width="10" opacity="0.7">
+    <line x1="50" y1="78" x2="210" y2="358"/>
+    <line x1="88" y1="78" x2="248" y2="358"/>
+    <line x1="126" y1="78" x2="286" y2="358"/>
+    <line x1="164" y1="78" x2="324" y2="358"/>
+    <line x1="202" y1="78" x2="362" y2="358"/>
+    <line x1="240" y1="78" x2="400" y2="358"/>
+    <line x1="278" y1="78" x2="386" y2="358"/>
+    <line x1="316" y1="78" x2="358" y2="358"/>
+  </g>
+  <!-- Denim cross lines (weft) -->
+  <g clip-path="url(#lens-clip-512)" stroke="#3d5e8c" stroke-width="8" opacity="0.5">
+    <line x1="78" y1="120" x2="358" y2="120"/>
+    <line x1="78" y1="152" x2="358" y2="152"/>
+    <line x1="78" y1="184" x2="358" y2="184"/>
+    <line x1="78" y1="216" x2="358" y2="216"/>
+    <line x1="78" y1="248" x2="358" y2="248"/>
+    <line x1="78" y1="280" x2="358" y2="280"/>
+    <line x1="78" y1="312" x2="358" y2="312"/>
+    <line x1="78" y1="344" x2="358" y2="344"/>
+  </g>
+  <!-- Lens sheen -->
+  <ellipse cx="178" cy="162" rx="44" ry="28" fill="white" opacity="0.18" transform="rotate(-20 178 162)"/>
+  <!-- Thick cartoon outline for lens -->
+  <circle cx="218" cy="218" r="140" fill="none" stroke="#171513" stroke-width="20"/>
+  <!-- Handle -->
+  <line x1="326" y1="326" x2="430" y2="434" stroke="#171513" stroke-width="42" stroke-linecap="round"/>
+  <line x1="326" y1="326" x2="430" y2="434" stroke="#c9a96e" stroke-width="22" stroke-linecap="round"/>
+  <!-- Inner lens ring detail -->
+  <circle cx="218" cy="218" r="112" fill="none" stroke="#171513" stroke-width="7" opacity="0.3"/>
+</svg>
